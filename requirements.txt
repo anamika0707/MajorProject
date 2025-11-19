@@ -1,0 +1,11 @@
+streamlit
+numpy
+pandas
+scikit-learn
+xgboost
+yfinance
+matplotlib
+seaborn
+pypfopt
+json5
+pillow
