@@ -1,0 +1,22 @@
+# create .gitignore and .env.example
+@"
+.env
+.venv/
+__pycache__/
+*.pyc
+portfolio_results.json
+portfolio_comparison.png
+.streamlit/secrets.toml
+"@ > .gitignore
+
+@"
+# Example environment variables - DO NOT COMMIT REAL VALUES
+DATA_API_KEY=
+ALPHA_VANTAGE_KEY=
+STREAMLIT_SECRET_KEY=
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+"@ > .env.example
+
+git add .gitignore .env.example
+git commit -m "Add .gitignore and .env.example; keep secrets out of repo"
