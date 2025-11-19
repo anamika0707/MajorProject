@@ -8,7 +8,7 @@ Files of interest:
 - `app.py` — Streamlit frontend (new): generate views, run full pipeline, display results and charts.
 - `requirements.txt` — dependencies to install.
 
-Quick start (PowerShell, from project root `c:\Users\Anamika\Desktop\MajorProject`):
+Quick start (PowerShell):
 
 1. (Optional) Create & activate a virtual environment:
 ```powershell
